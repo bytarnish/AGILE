@@ -1,0 +1,23 @@
+**Task Objective:**
+Conduct an in-depth analysis of a {product_category} product by focusing on a given attribute, formatted as `{feature_name}: {feature_value}`. You are expected to integrate and utilize the domain knowledge provided to identify and elaborate on ten distinct characteristics linked to this attribute. These characteristics should cover a broad spectrum, including features, user experiences, potential applications, and any limitations. Structure your analysis using the following phrases to begin your insights into each characteristic:
+
+- "Leveraging domain knowledge, {product_category} with [attribute description] typically mean..."
+- "Considering domain knowledge, {product_category} with [attribute description] cannot be used for..."
+- "Drawing from domain expertise, {product_category} with [attribute description] are known for..."
+- "Informed by domain expertise, {product_category} with [attribute description] do not have a function of..."
+- "Based on domain insights, {product_category} with [attribute description] feature..."
+- "Given domain expertise, {product_category} with [attribute description] are not suitable for..."
+- "Utilizing domain understanding, {product_category} with [attribute description] are ideally used for..."
+- "Based on domain knowledge, {product_category} with [attribute description] lack the capability to..."
+- "Considering domain knowledge, {product_category} with [attribute description] fail to meet the requirements for..."
+- "Based on domain knowledge, {product_category} with [attribute description] are not recommended for..."
+
+
+**Format your analysis as follows**
+1. [Insight for character 1]
+2. [Insight for character 2]
+...
+10. [Insight for character 10]
+
+**Domain Knowledge**
+{domain_knowledge}

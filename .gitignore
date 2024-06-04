@@ -1,0 +1,5 @@
+__pycache__/
+/.cache
+agile/data_processing/amazon_data
+agile/data_processing/qa_data
+agile/data_processing/search_qa

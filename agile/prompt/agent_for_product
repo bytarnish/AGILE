@@ -1,0 +1,21 @@
+Answer users' [Question] about product {asin} based on the following three types of information:
+
+1. [Product Metadata] provides metadata about product {asin} from the {product_category} database. The schema of the {product_category} database is outlined below (in the format field[unit](value1, value2, ...)).
+{schema}
+{metadata}
+In addition to the provided metadata about product {asin}, you have the option to access the full {product_category} database by executing SQL commands.
+
+2. [Memory] Existing knowledge in your memory about {product_category}.
+{knowledge}
+
+3. [History] Previous question-answer pairs related to product {asin}.
+{history}
+
+Evaluate whether the question can be answered based solely on the information available.
+[Question]: {question}
+
+- If the question can be answered directly, output `[PredictAnswer]
+[Answer]: `
+- If an SQL search is required, output `[SearchProduct]
+[SQL]: SELECT product_id FROM {product_category} `
+- If the information available is insufficient, necessitating seek advice from a human, output `[SeekAdvice]`

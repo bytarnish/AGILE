@@ -1,0 +1,7 @@
+Analyze the question and answer that pertain to an online shopping scenario involving products in the "{product_category}" category. Your task is to extract any information that are generally applicable to the entire {product_category} category. Focus should be on the broader category characteristics rather than on details specific to a specific product.
+
+If the question-answer pair offers no relevant general insights about the {product_category} category, simply respond with '[no information]'. Otherwise, directly summarize the applicable general knowledge or insights about the {product_category} category based on the provided question-answer pair.
+
+**Question**: {question}
+**Answer**: {answer}
+Output:

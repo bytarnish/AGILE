@@ -1,0 +1,92 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Canon",
+            "Sony",
+            "Olympus",
+            "Panasonic",
+            "Kodak",
+            "Nikon"
+        ]
+    },
+    "lens": {
+        "type": "choice",
+        "choices": [
+            "Wide-angle",
+            "Telephoto"
+        ]
+    },
+    "megapixels": {
+        "type": "cloze",
+        "format": "_ MP",
+        "example": "10 MP",
+        "unit": "MP"
+    },
+    "video_resolution": {
+        "type": "choice",
+        "choices": [
+            "480p",
+            "720p",
+            "1080p",
+            "4K"
+        ]
+    },
+    "Focusing Technology": {
+        "type": "choice",
+        "choices": [
+            "autofocus (AF) system",
+            "face detection",
+            "contrast detection",
+            "phase detection",
+            "manual focus (MF)",
+            "macro focus"
+        ]
+    },
+    "Image Stabilization": {
+        "type": "choice",
+        "choices": [
+            "optical image stabilization (OIS)",
+            "digital image stabilization (DIS)",
+            "dual IS (or hybrid IS)",
+            "sensor-shift IS",
+            "intelligent IS",
+            "5-axis IS",
+            "not applicable"
+        ]
+    },
+    "Sensor Type": {
+        "type": "choice",
+        "choices": [
+            "CCD (Charge-Coupled Device)",
+            "CMOS (Complementary Metal-Oxide-Semiconductor)",
+            "Live MOS",
+            "BSI CMOS (Back-Side Illuminated CMOS)",
+            "Foveon X3",
+            "EXR CMOS"
+        ]
+    },
+    "Waterproof": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    },
+    "Wireless Connectivity": {
+        "type": "choice",
+        "choices": [
+            "Wi-Fi",
+            "Bluetooth",
+            "NFC (Near Field Communication)",
+            "GPS (Global Positioning System)",
+            "build-in apps",
+            "not applicable"
+        ]
+    }
+}

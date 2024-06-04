@@ -1,0 +1,1 @@
+Please determine whether the answer of the question satisfies the following two rules: 1. The answer is like a human response. 2. The answer provides a clear conclusion which is not ambiguous. Please output Yes or No based on the given {question} and {answer}.

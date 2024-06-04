@@ -1,0 +1,11 @@
+Answer users' [Question] related on medical:
+
+[Question]: {question}
+
+Meanwhile, we also provide [Related knowledge] and [Similar Questions] for reference
+
+[Related knowledge]: {knowledge}
+
+[Similar Questions]: {history}
+
+Please analyze the above questions, output your thinking process concisly and ultimately output the final selection result in format of `[Thinking Process] ... [Choice]:`.

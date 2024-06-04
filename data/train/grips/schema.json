@@ -1,0 +1,67 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "ACK, LLC",
+            "Hogue",
+            "Pachmayr",
+            "Fixxxer",
+            "TALON Grips",
+            "BLACKHAWK!",
+            "Grip Force Adapters",
+            "Recover"
+        ]
+    },
+    "installation_time": {
+        "type": "cloze",
+        "format": "_ minute(s)",
+        "example": "10 minutes",
+        "unit": "minute"
+    },
+    "material": {
+        "type": "choice",
+        "choices": [
+            "rubber",
+            "polymer",
+            "wood"
+        ]
+    },
+    "Adhesive Type": {
+        "type": "choice",
+        "choices": [
+            "pressure-sensitive adhesive",
+            "acrylic-based adhesive",
+            "rubber-based adhesive",
+            "non-residue adhesive",
+            "heat-activated adhesive",
+            "water-activated adhesive",
+            "not applicable"
+        ]
+    },
+    "Grip Coverage": {
+        "type": "choice",
+        "choices": [
+            "full grip coverage",
+            "front and back strap coverage",
+            "finger groove coverage",
+            "side panel coverage",
+            "partial or reduced coverage",
+            "overmold coverage"
+        ]
+    },
+    "Gun Compatibility": {
+        "type": "choice",
+        "choices": [
+            "Glock 17, 18, 22, 24, 31, 34, 35",
+            "Smith & Wesson M&P 9mm and .40",
+            "1911 Government Full Size",
+            "Sig Sauer P226",
+            "Springfield XD Series",
+            "Ruger LCP/LC9"
+        ]
+    }
+}

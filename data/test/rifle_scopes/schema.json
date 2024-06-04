@@ -1,0 +1,79 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "NcSTAR",
+            "CVLIFE",
+            "TASCO",
+            "GOHIKING",
+            "Vortex Optics",
+            "BSA",
+            "Simmons",
+            "AIM Sports",
+            "Bushnell",
+            "UTG"
+        ]
+    },
+    "reticle": {
+        "type": "choice",
+        "choices": [
+            "P4",
+            "Crosshairs",
+            "Illuminated"
+        ]
+    },
+    "waterproof": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Focal Plane": {
+        "type": "choice",
+        "choices": [
+            "first focal plane (FFP)",
+            "second focal plane (SFP)"
+        ]
+    },
+    "Fogproof": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Magnification Range": {
+        "type": "choice",
+        "choices": [
+            "3-9x",
+            "4-12x",
+            "6-24x",
+            "1-4x or 1-6x",
+            "2.5-10x",
+            "5-20x, 5-25x, or similar"
+        ]
+    },
+    "Shockproof": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Turret Type": {
+        "type": "choice",
+        "choices": [
+            "capped turrets",
+            "exposed turrets",
+            "locking turrets",
+            "zero reset turrets",
+            "zero stop turrets",
+            "ballistic turrets"
+        ]
+    }
+}

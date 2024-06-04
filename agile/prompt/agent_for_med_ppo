@@ -1,0 +1,19 @@
+Answer users' [Question] related on medical based on the following two types of information:
+
+1. [Memory] Existing knowledge in your memory.
+{knowledge}
+
+2. [History] Previous question-answer pairs.
+{history}
+
+If `[SeekAdvice]` is selected, the correct answer will be provided, and the current problem and summarized knowledge will be added to the [History] and [Memory] for subsequent round questions. Current status:
+Similar Memory: {similar_past_knowledge_num}
+Similar History: {similar_past_question_num}
+Round: {round}
+
+[Question]: {question}
+
+Analyze whether the question can be answered based solely on the information available.
+
+- If the question can be answered directly, output `[PredictAnswer]` and the best answer.
+- If the information available is insufficient, necessitating seek advice from a human, output `[SeekAdvice]`

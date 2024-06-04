@@ -1,0 +1,85 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Goddess",
+            "Felina",
+            "Etosell",
+            "VASSARETTE",
+            "Olga",
+            "Elomi",
+            "Ekouaer",
+            "Curvation",
+            "Genie Bra",
+            "Carnival",
+            "VamJump",
+            "Barbra Lingerie",
+            "Warner's",
+            "Fifth Parallel Threads",
+            "Leonisa"
+        ]
+    },
+    "closure_type": {
+        "type": "choice",
+        "choices": [
+            "hook",
+            "pull-on"
+        ]
+    },
+    "washing_instruction": {
+        "type": "choice",
+        "choices": [
+            "machine",
+            "hand"
+        ]
+    },
+    "material": {
+        "type": "choice",
+        "choices": [
+            "nylon",
+            "polyester",
+            "lace"
+        ]
+    },
+    "Posture Correction Design": {
+        "type": "choice",
+        "choices": [
+            "reinforced back panels",
+            "wide, cushioned straps",
+            "front closure",
+            "criss-cross or racerback design",
+            "longline design",
+            "flexible structuring",
+            "not applicable"
+        ]
+    },
+    "Removable Pads": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Strap Adjustability": {
+        "type": "choice",
+        "choices": [
+            "fully adjustable straps",
+            "front adjustable straps",
+            "back adjustable straps",
+            "removable straps",
+            "fixed straps / non-adjustable straps",
+            "convertible straps"
+        ]
+    },
+    "Underwire": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

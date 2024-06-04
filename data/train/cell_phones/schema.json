@@ -1,0 +1,86 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "BlackBerry",
+            "Huawei",
+            "Samsung",
+            "Motorola",
+            "LG",
+            "Nokia",
+            "BLU",
+            "Alcatel"
+        ]
+    },
+    "ram": {
+        "type": "cloze",
+        "format": "_ GB",
+        "example": "3 GB",
+        "unit": "GB"
+    },
+    "screen_size": {
+        "type": "cloze",
+        "format": "_ inches",
+        "example": "5.5 inches",
+        "unit": "inch"
+    },
+    "internal_memory": {
+        "type": "cloze",
+        "format": "_ GB",
+        "example": "32 GB",
+        "unit": "GB"
+    },
+    "4G LTE Capable": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Operating System": {
+        "type": "choice",
+        "choices": [
+            "Android",
+            "BlackBerry OS",
+            "iOS",
+            "Windows Phone"
+        ]
+    },
+    "Processor Type": {
+        "type": "choice",
+        "choices": [
+            "Qualcomm Snapdragon",
+            "Apple A series",
+            "Samsung Exynos",
+            "MediaTek Helio",
+            "HiSilicon Kirin",
+            "Google Tensor"
+        ]
+    },
+    "SIM Type": {
+        "type": "choice",
+        "choices": [
+            "Standard SIM",
+            "Micro SIM",
+            "Nano SIM",
+            "eSIM (Embedded SIM)",
+            "Dual SIM",
+            "Hybrid Dual SIM"
+        ]
+    },
+    "Speaker Type": {
+        "type": "choice",
+        "choices": [
+            "Mono Speaker",
+            "Stereo Speaker",
+            "Front-Facing Speaker",
+            "Bottom-Firing Speaker",
+            "Dual-Amplified Speaker",
+            "Dynamic Speaker"
+        ]
+    }
+}

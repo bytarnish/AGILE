@@ -1,0 +1,85 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Brother",
+            "Canon",
+            "Epson",
+            "HP"
+        ]
+    },
+    "print_speed": {
+        "type": "cloze",
+        "format": "_ ppm",
+        "example": "27 ppm",
+        "unit": "ppm"
+    },
+    "connectivity": {
+        "type": "choice",
+        "choices": [
+            "wireless",
+            "wired"
+        ]
+    },
+    "print_technology": {
+        "type": "choice",
+        "choices": [
+            "inkjet",
+            "laser"
+        ]
+    },
+    "Color Output": {
+        "type": "choice",
+        "choices": [
+            "monochrome",
+            "color",
+            "black & white",
+            "photo quality",
+            "high-definition (HD) color",
+            "process color"
+        ]
+    },
+    "Duplex Capability": {
+        "type": "choice",
+        "choices": [
+            "manual",
+            "automatic (standard or built-in)",
+            "optional",
+            "integrated duplex",
+            "full duplex",
+            "not applicable"
+        ]
+    },
+    "Energy Efficiency": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    },
+    "Mobile Printing": {
+        "type": "choice",
+        "choices": [
+            "Apple AirPrint",
+            "Google Cloud Print",
+            "Mopria Print Service",
+            "Wi-Fi Direct",
+            "NFC (Near Field Communication)",
+            "Manufacturer's apps (e.g., HP ePrint, Canon PRINT Business, Epson iPrint)",
+            "not applicable"
+        ]
+    },
+    "Portability": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    }
+}

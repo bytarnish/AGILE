@@ -1,0 +1,94 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Piaa",
+            "HELLA",
+            "OPT7",
+            "Philips",
+            "HID-Warehouse",
+            "GE Lighting",
+            "Kensun",
+            "Sylvania"
+        ]
+    },
+    "color_temperature": {
+        "type": "cloze",
+        "format": "_ K",
+        "example": "3500 K",
+        "unit": "K"
+    },
+    "light_color": {
+        "type": "choice",
+        "choices": [
+            "yellow",
+            "white"
+        ]
+    },
+    "technology": {
+        "type": "choice",
+        "choices": [
+            "Halogen",
+            "LED"
+        ]
+    },
+    "num_per_pack": {
+        "type": "choice",
+        "choices": [
+            "1",
+            "2"
+        ]
+    },
+    "Beam Pattern": {
+        "type": "choice",
+        "choices": [
+            "low beam (dipped beam)",
+            "high beam (main beam)",
+            "fog beam",
+            "spot beam",
+            "flood beam",
+            "combo beam"
+        ]
+    },
+    "Dimmability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Energy Efficiency": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    },
+    "Lens Material": {
+        "type": "choice",
+        "choices": [
+            "polycarbonate",
+            "acrylic",
+            "glass",
+            "high-temperature plastics",
+            "silicone",
+            "composite materials"
+        ]
+    },
+    "Weather Resistance": {
+        "type": "choice",
+        "choices": [
+            "wide operating temperature range",
+            "good ultraviolet resistance",
+            "good vibration resistance",
+            "good humidity resistance",
+            "good corrosion resistance",
+            "not applicable"
+        ]
+    }
+}

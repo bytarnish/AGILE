@@ -1,0 +1,12 @@
+Given the metadata of a product in the {product_category} category, related knowledge and using your knowledge, please infer the "{feature_name}" of this product. Below are the possible options for this feature. Based on all information provided, select the most appropriate option and output the tokens that represents your choice/choices.
+
+**Metadata:**
+{metadata}
+
+**Related Knowledge:**
+{knowledge}
+
+**Choices:**
+{feature_list}
+
+- Your output should consist solely of the tokens representing your chosen option from the "Choices" provided. Do not include any additional text or explanation in your response.

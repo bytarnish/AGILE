@@ -1,0 +1,5 @@
+There is a pair of a question and its corresponding answer. Please simplify the given answer into its most concise version, which should be either 'yes', 'no', the product ASIN, or a few key words.
+Output format: 'yes','no', the product ASIN, or a few key words.
+
+Question: {question}
+Answer: {answer}

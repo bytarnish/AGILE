@@ -1,0 +1,77 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Panasonic",
+            "Samsung",
+            "LG",
+            "Sony"
+        ]
+    },
+    "connectivity": {
+        "type": "choice",
+        "choices": [
+            "wired",
+            "wireless"
+        ]
+    },
+    "resolution": {
+        "type": "choice",
+        "choices": [
+            "720p",
+            "1080p",
+            "2K",
+            "4K"
+        ]
+    },
+    "3D Capability": {
+        "type": "choice",
+        "choices": [
+            "3D ready",
+            "full HD 3D",
+            "2D to 3D conversion",
+            "3D effect adjustment",
+            "no 3D support"
+        ]
+    },
+    "Audio Decoding": {
+        "type": "choice",
+        "choices": [
+            "Dolby Digital (AC-3)",
+            "Dolby TrueHD",
+            "DTS Digital Surround",
+            "DTS-HD Master Audio",
+            "Dolby Atmos",
+            "DTS:X"
+        ]
+    },
+    "BD Live Support": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "DLNA Support": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Playback Compatibility": {
+        "type": "choice",
+        "choices": [
+            "blu-ray discs",
+            "DVDs",
+            "CDs",
+            "BD-R/RE",
+            "MP3/WMA/AAC",
+            "JPEG/PNG/BMP"
+        ]
+    }
+}

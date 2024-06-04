@@ -1,0 +1,96 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Jescakoo",
+            "QZUnique",
+            "Angelina",
+            "jntworld",
+            "Hollywood Star Fashion",
+            "ICONOFLASH",
+            "Yelete",
+            "D&K Monarchy",
+            "iLoveSIA",
+            "Romastory",
+            "Carnival",
+            "Liang Rou",
+            "ToBeInStyle",
+            "LMB",
+            "MOPAS",
+            "Ruthy's Apparel",
+            "Ayurvastram",
+            "Dimore"
+        ]
+    },
+    "warmth": {
+        "type": "choice",
+        "choices": [
+            "hot",
+            "moderate",
+            "cool"
+        ]
+    },
+    "transparency": {
+        "type": "choice",
+        "choices": [
+            "transparent",
+            "semi-transparent",
+            "opaque"
+        ]
+    },
+    "thickness": {
+        "type": "choice",
+        "choices": [
+            "thin",
+            "thick",
+            "medium"
+        ]
+    },
+    "Breathability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Compression": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Fabric": {
+        "type": "choice",
+        "choices": [
+            "polyester",
+            "spandex/elastane",
+            "cotton",
+            "nylon",
+            "bamboo",
+            "Lycra"
+        ]
+    },
+    "Length": {
+        "type": "choice",
+        "choices": [
+            "full length",
+            "7/8 length",
+            "capri length",
+            "crop length",
+            "short length",
+            "ankle length"
+        ]
+    },
+    "Machine Washable": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

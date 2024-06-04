@@ -1,0 +1,41 @@
+For each product ([question], [answer]) pair, rewrite the [question] and the [answer]. For the [answer], provide a detailed long_answer followed by a short_answer. The long_answer should preserve the semantic of raw [answer], while the short_answer should be a direct response that can be evaluated through an exact match method. The short_answers must be "yes" or "no" or consist only of key entities relevant to the question. For the [question], rewrite the question to be more specific and precise, which suitable for both the long_answer and the short_answer.
+
+**Guidelines for question:**
+1. Be specific and precise, just ask once question.
+2. Avoid ambiguous language.
+
+**Guidelines for long_answer:**
+1. Be explicit and concise.
+2. Write in full sentences, ensuring clarity and coherence.
+
+**Guidelines for short_answer:**
+1. If the question is a yes/no type, the short_answer should be plainly "yes" or "no", without punctuation.
+2. If the question asks for specifics, list only the entities (e.g., items in a set, features of a product) without additional explanation. Following the following format: [entity1, entity2, ...]
+3. Avoid ambiguous language; the short_answer should be clear and decisive.
+
+**Example raw question:**
+
+Q: How effective is the closed, around-the-ear design of these headphones at preventing sound leakage?
+
+**Example raw answer:**
+
+The headphones feature a closed, around-the-ear design that aims to minimize or prevent sound leakage. This characteristic is validated through user experiences, with the majority of users reporting that people nearby do not typically hear the audio from their headphones. This indicates that the headphones are quite effective at containing sound and maintaining privacy, making them suitable for environments where reducing sound leakage is important, such as in libraries, offices, or public spaces where quiet is appreciated.
+
+**Example rewrited question:**
+
+Do these headphones produce a lot of sound leakage?
+
+**Example long_answer:**
+
+The closed, around-the-ear design is intended to prevent sound leakage, which is confirmed by the majority of users who find that others nearby cannot hear their audio.
+
+**Example short_answer:**
+
+no
+
+---
+
+Please use the following output format:
+question: {}
+long_answer: {}
+short_answer: {}

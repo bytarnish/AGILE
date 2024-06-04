@@ -1,0 +1,73 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Lasko",
+            "Vornado",
+            "LifeSmart",
+            "Iliving",
+            "Honeywell",
+            "Dyson",
+            "Optimus",
+            "Bionaire",
+            "Cozy",
+            "Impress",
+            "Crane USA",
+            "Holmes"
+        ]
+    },
+    "heating_efficiency": {
+        "type": "choice",
+        "choices": [
+            "Fast",
+            "Average",
+            "Slow"
+        ]
+    },
+    "warranty": {
+        "type": "cloze",
+        "format": "up to _ year(s)",
+        "example": "up to 3 years",
+        "unit": "year"
+    },
+    "Heating Element": {
+        "type": "choice",
+        "choices": [
+            "ceramic",
+            "infrared (quartz or carbon)",
+            "nichrome (resistance wire)",
+            "PTC (positive temperature coefficient)",
+            "electric coil (open wire)",
+            "oil-filled"
+        ]
+    },
+    "Noise Level": {
+        "type": "choice",
+        "choices": [
+            "whisper quiet (<30 dB)",
+            "quiet (30-40 dB)",
+            "moderate (40-50 dB)",
+            "noticeable (50-60 dB)",
+            "loud (60-70 dB)",
+            "very loud (>70 dB)"
+        ]
+    },
+    "Overheat Protection": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Remote Control": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

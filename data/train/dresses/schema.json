@@ -1,0 +1,100 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Allegra K",
+            "OLRAIN",
+            "Allegrace",
+            "Wantdo",
+            "Kate Kasin",
+            "Urban CoCo",
+            "VfEmage",
+            "Vijiv",
+            "G2 Chic",
+            "OWIN",
+            "jinhuanshow",
+            "Memorose",
+            "LunaJany",
+            "On Trend",
+            "Von Vonni",
+            "KRISP",
+            "Plum Feathers"
+        ]
+    },
+    "neck_style": {
+        "type": "choice",
+        "choices": [
+            "collared",
+            "polo",
+            "V-neck",
+            "round"
+        ]
+    },
+    "dress_length": {
+        "type": "choice",
+        "choices": [
+            "midi",
+            "long",
+            "short",
+            "knee-length"
+        ]
+    },
+    "closure_type": {
+        "type": "choice",
+        "choices": [
+            "button",
+            "zipper",
+            "belted",
+            "elasticity"
+        ]
+    },
+    "Fabric": {
+        "type": "choice",
+        "choices": [
+            "cotton",
+            "silk",
+            "lace",
+            "linen",
+            "polyester",
+            "spandex"
+        ]
+    },
+    "Fit": {
+        "type": "choice",
+        "choices": [
+            "regular fit",
+            "slim fit",
+            "relaxed fit",
+            "petite fit",
+            "plus fit",
+            "tailored fit"
+        ]
+    },
+    "Occasion": {
+        "type": "choice",
+        "choices": [
+            "casual",
+            "formal",
+            "cocktail",
+            "party",
+            "wedding guest",
+            "workwear"
+        ]
+    },
+    "Sleeve Length": {
+        "type": "choice",
+        "choices": [
+            "short sleeve",
+            "long sleeve",
+            "3/4 sleeve",
+            "cap sleeve",
+            "bell sleeve",
+            "puff sleeve",
+            "sleeveless"
+        ]
+    }
+}

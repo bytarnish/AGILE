@@ -1,0 +1,7 @@
+Please evaluate if "Information 0" implies or contains sufficient details to deduce the primary message or key points of "Information 1". Respond with "Yes" if "Information 0" can indeed be used to infer the main content of "Information 1", or "No" if it cannot.
+
+**Inforamtion 0**
+{info0}
+
+**Information 1**
+{info1}

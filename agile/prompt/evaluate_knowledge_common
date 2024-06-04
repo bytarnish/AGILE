@@ -1,0 +1,3 @@
+Please evaluate the information provided below. Determine whether it represents general common knowledge accessible to most people, or if it is specialized knowledge specific to a particular field or domain. Please output Yes or No.
+
+information: {knowledge}

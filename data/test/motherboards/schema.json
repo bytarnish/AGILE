@@ -1,0 +1,86 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "ASRock",
+            "Gigabyte",
+            "MSI",
+            "Asus",
+            "Raspberry Pi"
+        ]
+    },
+    "memory_support": {
+        "type": "cloze",
+        "format": "_ GB",
+        "example": "32 GB",
+        "unit": "GB"
+    },
+    "memory_type": {
+        "type": "choice",
+        "choices": [
+            "DDR3",
+            "DDR4"
+        ]
+    },
+    "memory_slots": {
+        "type": "cloze",
+        "format": "_",
+        "example": "2"
+    },
+    "Bluetooth Version": {
+        "type": "choice",
+        "choices": [
+            "4.0",
+            "4.1",
+            "4.2",
+            "5.0",
+            "5.1",
+            "5.2",
+            "not applicable"
+        ]
+    },
+    "Cooling Solutions": {
+        "type": "choice",
+        "choices": [
+            "heatsinks",
+            "fan headers",
+            "water cooling support",
+            "thermal sensors",
+            "RGB/ARGB headers",
+            "enhanced PCB layers"
+        ]
+    },
+    "Form Factor": {
+        "type": "choice",
+        "choices": [
+            "ATX",
+            "Micro-ATX",
+            "Mini-ITX",
+            "E-ATX",
+            "XL-ATX",
+            "Nano-ITX"
+        ]
+    },
+    "Memory Channels": {
+        "type": "choice",
+        "choices": [
+            "single-channel",
+            "dual-channel",
+            "triple-channel",
+            "quad-channel",
+            "six-channel",
+            "eight-channel"
+        ]
+    },
+    "Overclocking Support": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

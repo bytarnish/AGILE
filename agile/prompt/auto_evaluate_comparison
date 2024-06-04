@@ -1,0 +1,7 @@
+1. When the **product_list** contains products, please check if the **response** mentions exactly one product from the **product_list**. If true output 'yes'. If false, output 'no'.
+2. When the **product_list** is empty, verify thath the **response** does not mention any product. If the **response** adheres to this condition, output "yes". Otherwise, output "no".
+
+Note only generate 'yes' or 'no' and do not ouput anything else.
+
+**product_list**: {reference}
+**response**: {response}

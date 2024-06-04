@@ -1,0 +1,88 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Nature's Miracle",
+            "Ever Clean",
+            "Cat's Pride",
+            "sWheat Scoop",
+            "Healthy Pet",
+            "Purina Tidy Cats",
+            "Purina Yesterday's News",
+            "World's Best Cat Litter",
+            "All-Absorb",
+            "Boxiecat",
+            "Arm Hammer",
+            "SmartCat",
+            "Dr. Elsey's",
+            "Naturally Fresh Litter",
+            "PetSafe",
+            "Fresh Step"
+        ]
+    },
+    "biodegradable": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "shipping_weight": {
+        "type": "cloze",
+        "format": "_ pound(s)",
+        "example": "2.3 pounds",
+        "unit": "pound"
+    },
+    "Clumping": {
+        "type": "choice",
+        "choices": [
+            "non-clumping",
+            "fast-clumping",
+            "hard-clumping",
+            "long-lasting clumps",
+            "multi-cat strength clumping",
+            "low-dust clumping"
+        ]
+    },
+    "Disposable": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Dust-Free": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Material": {
+        "type": "choice",
+        "choices": [
+            "clay",
+            "silica gel",
+            "recycled paper",
+            "wood",
+            "corn",
+            "walnut shells"
+        ]
+    },
+    "Odor Control Technology": {
+        "type": "choice",
+        "choices": [
+            "activated charcoal or carbon",
+            "baking soda",
+            "scented litter",
+            "biological or enzymatic odor eliminators",
+            "silica gel crystals",
+            "clumping agents",
+            "not applicable"
+        ]
+    }
+}

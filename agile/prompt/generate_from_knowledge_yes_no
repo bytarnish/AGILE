@@ -1,0 +1,16 @@
+Please generate 5 yes/no question-answer pairs that a customer might ask while considering a purchase of a {product_category} product. We provide some domain knowledge about the {product_category} products.
+
+--- domain knowledge ---
+"{domain_knowledge}"
+
+When creating these pairs, please adhere to the following guidelines:
+
+1. The questions should require the use of the given domain knowledge for their answers.
+2. The domain knowledge must be the main explanation in the answer.
+3. Question should mimic those a typical customer might ask while considering a purchase in this category.
+4. Answer should mention the specific feature ('{feature_name}': '{feature_value}'), and provided domain knowledge to offer comprehensive and informative responses.
+5. Do not directly reference the specific feature ('{feature_name}': '{feature_value}') in the questions. Aim to keep them general yet relevant to the feature.
+6. Format your output as shown below:
+**1**
+Question: [Insert customer question here, not mentioning the specific feature directly]
+Answer: [Insert answer here, incorporating the feature information and domain knowledge naturally]

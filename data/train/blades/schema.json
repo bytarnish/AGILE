@@ -1,0 +1,82 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Piaa",
+            "Silblade",
+            "Aero",
+            "Trico",
+            "Bosch",
+            "Valeo",
+            "Anco",
+            "Rain-X"
+        ]
+    },
+    "size": {
+        "type": "cloze",
+        "format": "_ inches",
+        "example": "18 inches",
+        "unit": "inch"
+    },
+    "material": {
+        "type": "choice",
+        "choices": [
+            "rubber",
+            "silicone",
+            "plastic"
+        ]
+    },
+    "num_per_pack": {
+        "type": "choice",
+        "choices": [
+            "1",
+            "2"
+        ]
+    },
+    "Aerodynamic Design": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Beam Blade Technology": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Easy Installation Design": {
+        "type": "choice",
+        "choices": [
+            "universal quick-connect adapter",
+            "pre-installed J-hook",
+            "no tools required",
+            "one-step installation",
+            "pictogram instructions",
+            "integrated quick release button",
+            "not applicable"
+        ]
+    },
+    "Ice and Snow Resistance": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    },
+    "Water Repellency": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    }
+}

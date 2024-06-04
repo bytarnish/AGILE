@@ -1,0 +1,94 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Timex",
+            "Casio",
+            "Invicta",
+            "Aposon"
+        ]
+    },
+    "dial_color": {
+        "type": "choice",
+        "choices": [
+            "Yellow",
+            "Blue",
+            "Green",
+            "Black",
+            "Grey",
+            "Purple",
+            "White"
+        ]
+    },
+    "dial_window_material": {
+        "type": "choice",
+        "choices": [
+            "Glass",
+            "Mineral",
+            "Crystal",
+            "Plastic"
+        ]
+    },
+    "shipping_weight": {
+        "type": "cloze",
+        "format": "_ ounce(s)",
+        "example": "2.4 ounces",
+        "unit": "ounce"
+    },
+    "Alarm": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Display Type": {
+        "type": "choice",
+        "choices": [
+            "analog",
+            "digital",
+            "hybrid",
+            "chronograph",
+            "binary",
+            "touchscreen"
+        ]
+    },
+    "Power Source": {
+        "type": "choice",
+        "choices": [
+            "battery",
+            "automatic (self-winding)",
+            "manual (hand-winding)",
+            "solar",
+            "kinetic",
+            "eco-drive"
+        ]
+    },
+    "Strap Material": {
+        "type": "choice",
+        "choices": [
+            "leather",
+            "stainless steel",
+            "rubber/silicone",
+            "nylon",
+            "titanium",
+            "ceramic"
+        ]
+    },
+    "Water Resistance": {
+        "type": "choice",
+        "choices": [
+            "30 meters",
+            "50 meters",
+            "100 meters",
+            "200 meters",
+            "300 meters",
+            "1000 meters",
+            "not applicable"
+        ]
+    }
+}

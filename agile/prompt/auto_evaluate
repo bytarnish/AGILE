@@ -1,0 +1,5 @@
+Based on the provided question and reference answer, please determine if the response is correct or incorrect. Begin by articulating your rationale, and conclude with a single word judgment: 'Yes' for correct or 'No' for incorrect.
+
+question: {question}
+reference answer: {reference}
+response: {response}

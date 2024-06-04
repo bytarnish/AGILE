@@ -1,0 +1,5 @@
+Analyze the following {product_category} related [Question] and [Answer]. Your task is to extract any [Information] that is typically applicable to issues related to the medical field. Summarize and generalize the extracted knowledge into one sentence. If the question-answer pair offers no relevant medical insights, simply respond with '[no information]'.
+
+[Question]: {question}
+[Answer]: {answer}
+[Information]: 

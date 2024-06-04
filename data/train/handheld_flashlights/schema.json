@@ -1,0 +1,102 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "ThruNite",
+            "MagLite",
+            "outlite",
+            "ULTRAFIRE",
+            "Eton",
+            "Coast",
+            "Streamlight",
+            "LRI",
+            "TerraLUX",
+            "Amerelle",
+            "BYB",
+            "DEWALT",
+            "Finware",
+            "SureFire",
+            "TaoTronics",
+            "NEBO"
+        ]
+    },
+    "battery_life": {
+        "type": "cloze",
+        "format": "up to _ hour(s)",
+        "example": "up to 5 hours",
+        "unit": "hour"
+    },
+    "battery_type": {
+        "type": "choice",
+        "choices": [
+            "18650",
+            "AA",
+            "AAA",
+            "CR2016",
+            "NiMH",
+            "Rechargeable"
+        ]
+    },
+    "beam_distance": {
+        "type": "cloze",
+        "format": "up to _ yard(s)",
+        "exmaple": "up to 80 yards",
+        "unit": "yard"
+    },
+    "Beam Focus Type": {
+        "type": "choice",
+        "choices": [
+            "fixed",
+            "adjustable",
+            "spot / focused beam",
+            "flood / wide beam",
+            "zoomable",
+            "dual beam"
+        ]
+    },
+    "Body Material": {
+        "type": "choice",
+        "choices": [
+            "aluminum",
+            "stainless steel",
+            "plastic or polymer",
+            "titanium",
+            "rubber",
+            "carbon fiber"
+        ]
+    },
+    "Light Source Type": {
+        "type": "choice",
+        "choices": [
+            "incandescent",
+            "LED",
+            "HID",
+            "xenon",
+            "halogen",
+            "UV"
+        ]
+    },
+    "Power Source": {
+        "type": "choice",
+        "choices": [
+            "batteries (disposable)",
+            "rechargeable batteries",
+            "solar power",
+            "dynamo (hand-crank)",
+            "USB rechargeable",
+            "hybrid/combination"
+        ]
+    },
+    "Water Resistance": {
+        "type": "choice",
+        "choices": [
+            "good",
+            "fair",
+            "poor"
+        ]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Ozeri",
+            "USA Pan",
+            "Chicago Metallic",
+            "Bialetti",
+            "Lodge",
+            "Matfer Bourgeat",
+            "Anolon",
+            "Cuisinart",
+            "T-fal",
+            "Copper Chef",
+            "Presto",
+            "Utopia Kitchen",
+            "ZWILLING J.A. Henckels",
+            "Tramontina",
+            "All-Clad",
+            "Norpro"
+        ]
+    },
+    "size": {
+        "type": "cloze",
+        "format": "_ inch(es)",
+        "example": "12 inches",
+        "unit": "inch"
+    },
+    "oven_safe_temperature": {
+        "type": "cloze",
+        "format": "_ F",
+        "example": "450 F",
+        "unit": "F"
+    },
+    "color": {
+        "type": "choice",
+        "choices": [
+            "grey",
+            "black",
+            "silver",
+            "copper",
+            "green",
+            "blue"
+        ]
+    },
+    "Dishwasher Safe": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Lid Type": {
+        "type": "choice",
+        "choices": [
+            "glass lid",
+            "stainless steel lid",
+            "tempered glass lid",
+            "ventilated lid",
+            "enamel lid",
+            "cast iron lid",
+            "not applicable"
+        ]
+    },
+    "Material": {
+        "type": "choice",
+        "choices": [
+            "stainless steel",
+            "aluminum",
+            "cast iron",
+            "copper",
+            "ceramic",
+            "non-stick (teflon or PTFE)"
+        ]
+    },
+    "Pan Type": {
+        "type": "choice",
+        "choices": [
+            "frying pan / skillet",
+            "saucepan",
+            "saute pan",
+            "wok",
+            "grill pan",
+            "stock pot"
+        ]
+    },
+    "Shape": {
+        "type": "choice",
+        "choices": [
+            "round",
+            "square",
+            "rectangular",
+            "oval",
+            "heart",
+            "novelty shapes"
+        ]
+    }
+}

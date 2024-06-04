@@ -1,0 +1,112 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Sennheiser",
+            "JVC",
+            "V-MODA",
+            "Klipsch",
+            "Phaiser",
+            "ABCShopUSA",
+            "Soundbot",
+            "COWIN",
+            "Audio-Technica",
+            "Bose",
+            "Monoprice",
+            "Jaybird",
+            "Avantree",
+            "Toysdone",
+            "Sony"
+        ]
+    },
+    "playtime": {
+        "type": "cloze",
+        "format": "up to _ hour(s)",
+        "example": "up to 8 hours",
+        "unit": "hour"
+    },
+    "connectivity": {
+        "type": "choice",
+        "choices": [
+            "wired",
+            "wireless"
+        ]
+    },
+    "headphone_type": {
+        "type": "choice",
+        "choices": [
+            "earbud",
+            "in-ear",
+            "on-ear",
+            "over-ear"
+        ]
+    },
+    "Speaker Type": {
+        "type": "choice",
+        "choices": [
+            "dynamic drivers",
+            "balanced armature drivers",
+            "planar magnetic drivers",
+            "electrostatic drivers",
+            "hybrid drivers"
+        ]
+    },
+    "Cable Type": {
+        "type": "choice",
+        "choices": [
+            "3.5mm Jack",
+            "6.35mm Jack",
+            "2.5mm Jack",
+            "XLR Cable",
+            "USB/USB-C",
+            "lightning cable",
+            "bluetooth (wireless)"
+        ]
+    },
+    "Audio Output Mode": {
+        "type": "choice",
+        "choices": [
+            "stereo mode",
+            "mono mode",
+            "surround sound mode",
+            "noise-canceling mode",
+            "ambient sound mode",
+            "bass boost mode"
+        ]
+    },
+    "Audio Transmission": {
+        "type": "choice",
+        "choices": [
+            "analog",
+            "digital",
+            "bluetooth",
+            "radio frequency",
+            "infrared",
+            "Kleer"
+        ]
+    },
+    "Impedance": {
+        "type": "choice",
+        "choices": [
+            "low impedance (under 32 Ohms)",
+            "medium impedance (between 32 to 100 Ohms)",
+            "high impedance (over 100 Ohms)",
+            "variable impedance"
+        ]
+    },
+    "Microphone System": {
+        "type": "choice",
+        "choices": [
+            "built-in microphones",
+            "boom microphones",
+            "noise-canceling microphones",
+            "bi-directional microphones",
+            "array microphones",
+            "MEMS microphones"
+        ]
+    }
+}

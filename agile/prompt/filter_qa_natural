@@ -1,0 +1,3 @@
+Please determine whether this question is a typical customer might ask while considering a purchase in the category "{product_category}". Please output Yes or No.
+
+{question}

@@ -1,0 +1,12 @@
+Based on the provided meta data and user reviews of a product, generate {raw_qa_batch_size} diverse customer inquiries along with corresponding responses from E-commerce customer service. The answers should reflect the majority view from customer reviews where applicable and avoid referencing specific reviews.
+
+**E-commerce Customer Service Representative Notes:**
+- Provide accurate information according to product metadata.
+- Ensure responses are general and professional, avoiding any mention of individual reviews unless they add necessary context.
+- For conflicting points in reviews, summarize in a way that reflects the consensus.
+- Pay attention to commonly asked questions and anticipate potential customer needs.
+
+Please use the following output format:
+**1**
+Q: 
+A: 

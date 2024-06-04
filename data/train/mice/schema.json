@@ -1,0 +1,94 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Logitech",
+            "TeckNet",
+            "Microsoft",
+            "JETech",
+            "HP",
+            "AmazonBasics",
+            "Generic",
+            "Apple",
+            "E-BLUE",
+            "Anker"
+        ]
+    },
+    "number_of_buttons": {
+        "type": "cloze",
+        "format": "_ button(s)",
+        "example": "2 buttons",
+        "unit": "button"
+    },
+    "material": {
+        "type": "choice",
+        "choices": [
+            "Plastic",
+            "Rubber"
+        ]
+    },
+    "precision": {
+        "type": "choice",
+        "choices": [
+            "Low",
+            "Medium",
+            "High"
+        ]
+    },
+    "Battery Type": {
+        "type": "choice",
+        "choices": [
+            "AA batteries",
+            "AAA batteries",
+            "Lithium-Ion (Li-Ion)",
+            "built-in rechargeable",
+            "coin cell batteries",
+            "Nickel-metal hydride (NiMH)",
+            "not applicable"
+        ]
+    },
+    "Connectivity": {
+        "type": "choice",
+        "choices": [
+            "wired USB",
+            "wireless RF (Radio Frequency)",
+            "Bluetooth",
+            "dual connectivity (multi-device)",
+            "infrared (IR)",
+            "programmable receiver"
+        ]
+    },
+    "OS Compatibility": {
+        "type": "choice",
+        "choices": [
+            "Microsoft Windows",
+            "MacOS",
+            "Linux",
+            "Chrome OS",
+            "Android",
+            "iOS/iPadOS"
+        ]
+    },
+    "Plug and Play": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Tracking Technology": {
+        "type": "choice",
+        "choices": [
+            "optical tracking",
+            "laser tracking",
+            "BlueTrack technology",
+            "Infrared (IR) LED tracking",
+            "ball or mechanical tracking",
+            "gyroscopic or motion tracking"
+        ]
+    }
+}

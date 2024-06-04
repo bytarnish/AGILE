@@ -1,0 +1,82 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "CONDOR",
+            "Uncle Mikes",
+            "DeSantis Gunhide",
+            "Fobus",
+            "MIC Holster Systems",
+            "Gould & Goodrich",
+            "Explorer",
+            "ClipDraw",
+            "UTG",
+            "GoZier Tactical",
+            "Concealment Express",
+            "Maxpedition",
+            "Galco Gunleather",
+            "BLACKHAWK"
+        ]
+    },
+    "adjustability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "material": {
+        "type": "choice",
+        "choices": [
+            "nylon",
+            "rubber",
+            "plastic",
+            "leather",
+            "aluminum",
+            "synthetic"
+        ]
+    },
+    "weight": {
+        "type": "cloze",
+        "format": "_ ounce(s)",
+        "example": "0.3 ounces",
+        "unit": "ounce"
+    },
+    "Gun Compatibility": {
+        "type": "choice",
+        "choices": [
+            "Glock 17, 18, 22, 24, 31, 34, 35",
+            "Smith & Wesson M&P 9mm and .40",
+            "1911 Government Full Size",
+            "Sig Sauer P226",
+            "Springfield XD Series",
+            "Ruger LCP/LC9"
+        ]
+    },
+    "Retention System": {
+        "type": "choice",
+        "choices": [
+            "passive retention",
+            "active retention",
+            "level I retention",
+            "level II retention",
+            "level III retention",
+            "friction retention"
+        ]
+    },
+    "Sweat Guard": {
+        "type": "choice",
+        "choices": [
+            "full sweat guard",
+            "half sweat guard",
+            "minimal sweat guard",
+            "no sweat guard",
+            "extended sweat guard",
+            "customizable sweat guard"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+Answer users' [Question] about product {asin} based on the following three types of information:
+
+1. [Product Metadata] provides metadata about product {asin} from the {product_category} database. The schema of the {product_category} database is outlined below (in the format field[unit](value1, value2, ...)).
+{schema}
+{metadata}
+In addition to the provided metadata about product {asin}, you have the option to access the full {product_category} database by executing SQL commands.
+
+2. [Memory] Existing knowledge in your memory about {product_category}.
+{knowledge}
+
+3. [History] Previous question-answer pairs related to product {asin}.
+{history}
+
+If `[SeekAdvice]` is selected, the correct answer will be provided, and the current problem and summarized knowledge will be added to the [History] and [Memory] for subsequent round questions. Current status:
+Similar Memory: {similar_past_knowledge_num}
+Similar History: {similar_past_question_num}
+Round: {round}
+
+Evaluate whether the question can be answered based solely on the information available.
+[Question]: {question}
+
+- If the question can be answered directly, output `[PredictAnswer]
+[Answer]: `
+- If an SQL search is required, output `[SearchProduct]
+[SQL]: SELECT product_id FROM {product_category} `
+- If the information available is insufficient, necessitating seek advice from a human, output `[SeekAdvice]`
+(If you choose [PredictAnswer] or [SearchProduct], you will receive 1 point for doing right and no point for doing wrong. If you choose [SeekAdvice], you will directly receive 0.7 points)

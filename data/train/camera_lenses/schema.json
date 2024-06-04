@@ -1,0 +1,101 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Sigma",
+            "Canon",
+            "Altura Photo",
+            "Sony",
+            "Tamron",
+            "Rokinon",
+            "Olympus",
+            "Pentax",
+            "Tokina",
+            "Opteka"
+        ]
+    },
+    "filter_size": {
+        "type": "cloze",
+        "format": "_ mm",
+        "example": "77 mm",
+        "unit": "mm"
+    },
+    "lens_type": {
+        "type": "choice",
+        "choices": [
+            "Fisheye",
+            "Macro",
+            "Standard",
+            "Teleconverter",
+            "Telephoto",
+            "Tilt-shift",
+            "Wide-angle"
+        ]
+    },
+    "focus_type": {
+        "type": "choice",
+        "choices": [
+            "Auto Focus",
+            "Auto/Manual",
+            "Fixed Focus",
+            "Manual Focus"
+        ]
+    },
+    "Angle of View": {
+        "type": "choice",
+        "choices": [
+            "ultra-wide-angle lens: around 94° to 114° (e.g., 14mm, 16mm lenses)",
+            "wide-angle lens: around 64° to 84° (e.g., 24mm, 35mm lenses)",
+            "standard lens: around 45° to 63° (e.g., 50mm lenses)",
+            "short telephoto lens: around 23° to 34° (e.g., 85mm, 100mm lenses)",
+            "medium telephoto lens: around 12° to 22° (e.g., 135mm, 200mm lenses)",
+            "long telephoto lens: around 8° to 10° (e.g., 300mm, 400mm lenses)"
+        ]
+    },
+    "Autofocus Technology": {
+        "type": "choice",
+        "choices": [
+            "Phase Detection Autofocus (PDAF)",
+            "Contrast Detection Autofocus",
+            "Hybrid Autofocus",
+            "Dual Pixel Autofocus (DPAF)",
+            "Predictive Autofocus",
+            "Stepping Motor (STM)",
+            "Ultrasonic Motor (USM)",
+            "not applicable"
+        ]
+    },
+    "Detachable Macro": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Mount Compatibility": {
+        "type": "choice",
+        "choices": [
+            "Canon EF",
+            "Nikon F",
+            "Sony E",
+            "Micro Four Thirds",
+            "Fujifilm X",
+            "Leica L"
+        ]
+    },
+    "Stabilization Type": {
+        "type": "choice",
+        "choices": [
+            "Optical Stabilization (OS)",
+            "Vibration Reduction (VR)",
+            "Optical SteadyShot (OSS)",
+            "Image Stabilization (IS)",
+            "In-Lens Stabilization (ILS)",
+            "not applicable"
+        ]
+    }
+}

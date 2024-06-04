@@ -1,0 +1,91 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "EatSmart",
+            "Keepax",
+            "My Weigh",
+            "1byone",
+            "Etekcity",
+            "American Weigh",
+            "Deco Brothers",
+            "MIRA Brands",
+            "ZERLA",
+            "American Weigh Scales",
+            "Ozeri",
+            "AccuWeight",
+            "Weighmax"
+        ]
+    },
+    "battery_type": {
+        "type": "choice",
+        "choices": [
+            "AA",
+            "AAA",
+            "Lithium"
+        ]
+    },
+    "precision": {
+        "type": "cloze",
+        "format": "_ g",
+        "example": "1 g",
+        "unit": "g"
+    },
+    "warranty": {
+        "type": "cloze",
+        "format": "up to _ year(s)",
+        "example": "up to 1 year",
+        "unit": "year"
+    },
+    "Auto-off Function": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Display Type": {
+        "type": "choice",
+        "choices": [
+            "LCD",
+            "LED",
+            "backlit display",
+            "OLED",
+            "touchscreen",
+            "segmented display"
+        ]
+    },
+    "Material": {
+        "type": "choice",
+        "choices": [
+            "stainless steel",
+            "tempered glass",
+            "plastic",
+            "aluminum",
+            "rubber",
+            "silicon"
+        ]
+    },
+    "Power Source": {
+        "type": "choice",
+        "choices": [
+            "batteries",
+            "AC adapter",
+            "USB",
+            "rechargeable battery",
+            "solar power",
+            "combination power sources"
+        ]
+    },
+    "Tare Function": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

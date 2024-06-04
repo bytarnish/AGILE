@@ -1,0 +1,89 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Canon",
+            "Sony",
+            "Case Logic",
+            "Altura Photo",
+            "Pelican",
+            "AmazonBasics",
+            "OP/TECH USA",
+            "USA Gear",
+            "Lowepro",
+            "Ape Case"
+        ]
+    },
+    "closure_type": {
+        "type": "choice",
+        "choices": [
+            "drawstring",
+            "velcro",
+            "zipper",
+            "locks"
+        ]
+    },
+    "portability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "color": {
+        "type": "cloze",
+        "format": "_ color",
+        "example": "black color"
+    },
+    "water_resistance": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Carrying Options": {
+        "type": "choice",
+        "choices": [
+            "shoulder strap",
+            "belt loop",
+            "hand grip",
+            "backpack straps",
+            "chest harness",
+            "trolley sleeve"
+        ]
+    },
+    "Material": {
+        "type": "choice",
+        "choices": [
+            "nylon",
+            "leather",
+            "neoprene",
+            "polyester",
+            "canvas",
+            "eva"
+        ]
+    },
+    "Tripod Attachment": {
+        "type": "choice",
+        "choices": [
+            "built-in strap loops",
+            "external straps",
+            "dedicated tripod pocket/compartment",
+            "hook and loop fastener",
+            "d-ring or clip attachments",
+            "none"
+        ]
+    },
+    "Waterproof": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

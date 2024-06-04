@@ -1,0 +1,5 @@
+There is a pair of a question and its corresponding answer. Please condense the answer to a simple 'yes' or 'no'.
+Output format: only one word, 'yes' or 'no'.
+
+Question: {question}
+Answer: {answer}

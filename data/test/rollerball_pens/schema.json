@@ -1,0 +1,86 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Uni-ball",
+            "Pentel",
+            "BOLD",
+            "Fiskars",
+            "Pilot",
+            "Paper Mate",
+            "LolliZ"
+        ]
+    },
+    "tip_size": {
+        "type": "cloze",
+        "format": "_ mm",
+        "example": "0.7 mm",
+        "unit": "mm"
+    },
+    "refillable": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "ink_color": {
+        "type": "choice",
+        "choices": [
+            "black",
+            "blue",
+            "red"
+        ]
+    },
+    "Barrel Material": {
+        "type": "choice",
+        "choices": [
+            "plastic",
+            "metal",
+            "resin",
+            "wood",
+            "carbon fiber",
+            "acrylic"
+        ]
+    },
+    "Erasability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Ink Type": {
+        "type": "choice",
+        "choices": [
+            "water-based ink",
+            "gel ink",
+            "quick-drying ink",
+            "pigment-based ink",
+            "liquid ink",
+            "hybrid ink"
+        ]
+    },
+    "Retractability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Tip Material": {
+        "type": "choice",
+        "choices": [
+            "stainless steel",
+            "tungsten carbide",
+            "ceramic",
+            "brass",
+            "nickel silver",
+            "ruby"
+        ]
+    }
+}

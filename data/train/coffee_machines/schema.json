@@ -1,0 +1,86 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Bonavita",
+            "BUNN",
+            "Hamilton Beach",
+            "BELLA",
+            "Capresso",
+            "Cuisinart",
+            "Black & Decker",
+            "Mr. Coffee",
+            "Zojirushi"
+        ]
+    },
+    "capacity": {
+        "type": "cloze",
+        "format": "_ cups",
+        "example": "12 cups",
+        "unit": "cup"
+    },
+    "carafe_material": {
+        "type": "choice",
+        "choices": [
+            "stainless steel",
+            "plastic",
+            "glass"
+        ]
+    },
+    "color": {
+        "type": "choice",
+        "choices": [
+            "white",
+            "black",
+            "silver"
+        ]
+    },
+    "Brewing Temperature Range": {
+        "type": "choice",
+        "choices": [
+            "190°F to 205°F (88°C to 96°C)",
+            "195°F to 205°F (90°C to 96°C)",
+            "200°F to 205°F (93°C to 96°C)"
+        ]
+    },
+    "Filter Type": {
+        "type": "choice",
+        "choices": [
+            "paper filter",
+            "permanent filter",
+            "gold-tone filter",
+            "water filter",
+            "pod filter",
+            "cloth filter"
+        ]
+    },
+    "Grinder Type": {
+        "type": "choice",
+        "choices": [
+            "blade grinder",
+            "conical burr grinder",
+            "flat burr grinder",
+            "ceramic grinder",
+            "stainless steel grinder",
+            "manual grinder"
+        ]
+    },
+    "Programmability": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Self-clean Function": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}

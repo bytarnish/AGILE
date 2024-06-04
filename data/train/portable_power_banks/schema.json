@@ -1,0 +1,85 @@
+{
+    "price": {
+        "type": "cloze",
+        "unit": "dollar"
+    },
+    "brand": {
+        "type": "choice",
+        "choices": [
+            "Anker",
+            "RAVPower",
+            "NEOMEN Anker",
+            "Poweradd",
+            "Jackery",
+            "Aibocn",
+            "Mogix",
+            "EasyAcc",
+            "UNIFUN"
+        ]
+    },
+    "battery_capacity": {
+        "type": "cloze",
+        "format": "_ mAh",
+        "example": "5000 mAh",
+        "unit": "mAh"
+    },
+    "recharge_time": {
+        "type": "cloze",
+        "format": "_ hour(s)",
+        "example": "3 hours",
+        "unit": "hour"
+    },
+    "charging_ports": {
+        "type": "cloze",
+        "format": "_",
+        "example": "3"
+    },
+    "color": {
+        "type": "choice",
+        "choices": [
+            "green",
+            "pink",
+            "black",
+            "silver",
+            "white",
+            "gold",
+            "orange"
+        ]
+    },
+    "Battery Type": {
+        "type": "choice",
+        "choices": [
+            "Lithium-ion",
+            "Lithium Polymer",
+            "Nickel-Metal Hydride",
+            "Alkaline",
+            "Lithium Iron Phosphate",
+            "Solid-state battery"
+        ]
+    },
+    "Built-in Flashlight": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    "Charging Technology": {
+        "type": "choice",
+        "choices": [
+            "quick charge",
+            "USB power delivery",
+            "voltage boost",
+            "intelligent charging / smart IC",
+            "GaN technology",
+            "wireless charging"
+        ]
+    },
+    "Qualcomm Quick Charge": {
+        "type": "choice",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    }
+}
