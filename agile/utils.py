@@ -5,8 +5,8 @@ import torch.nn.functional as F
 from transformers import AutoTokenizer
 from models import AzureClient, EmbeddingModel
 
-# embed_model = EmbeddingModel()
-
+embed_model = EmbeddingModel()
+call_search_azure = AzureClient("Your-Azure-Key")
 
 def get_group_split(group):
     return 'test' if group in ['all_pans', 'camera_cases', 'leggings', 'motherboards', 'rifle_scopes', 'rollerball_pens'] else 'train'
@@ -189,7 +189,6 @@ def eval_predict_long(question, response, long_answer, prompt_file, azure_key):
     # eval the predict result in long answer
     # Note that this function needs GPT-4
     prompt = load_prompt(prompt_file).format(question=question, reference=long_answer, response=str(response))
-    call_search_azure = AzureClient(azure_key)
     result = call_search_azure(prompt, "gpt-4", 500)
     if 'Yes' in result:
         return True, result
