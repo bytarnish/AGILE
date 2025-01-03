@@ -1,7 +1,8 @@
 # AGILE
 
 AGILE: **AG**ent that **I**nteracts and **L**earns from **E**nvironments <br>
-arxiv: http://arxiv.org/abs/2405.14751
+Code for NeurIPS 2024 paper: [AGILE: A Novel Reinforcement Learning Framework of LLM Agents](https://arxiv.org/abs/2405.14751)
+
 
 ## Getting Started
 ### For a simple run of AGILE on ProductQA dataset
@@ -36,13 +37,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 If you find it useful, please cite our work.
 
 ```
-@misc{feng2024agile,
-      title={AGILE: A Novel Framework of LLM Agents}, 
-      author={Peiyuan Feng and Yichen He and Guanhua Huang and Yuan Lin and Hanchong Zhang and Yuchen Zhang and Hang Li},
-      year={2024},
-      eprint={2405.14751},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+fengpeiyuan2024agile,
+title={{AGILE}: A Novel Reinforcement Learning Framework of {LLM} Agents},
+author={FengPeiyuan and Yichen He and Guanhua Huang and Yuan Lin and Hanchong Zhang and Yuchen Zhang and Hang Li},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=Ul3lDYo3XQ}
 }
 ```
 
